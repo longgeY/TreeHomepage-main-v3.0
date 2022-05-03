@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+    <!-- Tree Landing Page -->
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="author" content="Longge Yuan">
+            <meta name="author" content="Himanshu Bhushan">
+            <title>Tree Homepage</title>
+
+            <link rel="stylesheet" href="Homepage.css">
+            <script src="Homepage.js"></script>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        </head>
+
+        <body>
+            
+            <header>
+                <div class="jz_header_container webHead">
+                    <h1 class="jz_title_h1">
+                        <a  class="jz_logo" href="https://www.winona.edu/">
+                            <img class="jz_logo_img" src="https://www.hbci.com/store/images/P/WSU%20School%20thumbnail.jpg" >
+                        </a>
+                    </h1>
+                    <a class="jz_fkw_product" href="https://www.winona.edu/" target="_blank">Winona State University</a>
+                </div>
+            </header>
+
+            <div class="hero">
+                <div class="hero__wrap">
+                    <div class="hero__media">
+                        <video class="hero__video" muted loop autoplay playsinline>
+                        <source src="https://admissions.winona.edu/wp-content/uploads/sites/2/2022/02/Homepage-Hero-4mbps.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+                    <div class="hero__container">  
+                        <div class="hero__content">
+                            <div class="hero__text">
+                                <h1 class="hero__title" data-animation="fade-in-up" data-animate="true">Tree Home Page</h1>
+                                
+                                <a href="https://www.youtube.com/watch?v=VGvG8aMNyQU" class="cta-button cta-button--video cta-button--" data-animation="fade-in-up" data-animate="true"  data-minimodal>
+                                    <span>Watch the Video</span>
+                                </a>
+            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+            <section class="row" id="newList">
+                <nav class="leftmenu">
+                    <script>
+                        //loadXMLDoc();
+                        //buildWordLists();
+                    </script>
+
+
+
+                    <input type="text" id="mySearch" onkeyup="Search()" placeholder="Search.." title="Type in a category">
+                    <ul id="menulist">
+                        <script>
+                            
+                            createLists();
+                            loadXMLDoc(2);
+                        </script>
+                        
+                    </ul>     
+                </nav>
+
+                <div class="article">   
+                    <h1>Winona tree</h1>
+                    <p>Corylus americana or the American Filbert is also known as the American Hazel. It is one of three species of Corylus that occur in North America, and one of two that is native to Minnesota. Corylus is the classical Latin name for hazel, possibly derived from the Greek korylos or corys, a helmet, in reference to the husk that surrounds the nut. American Filbert is a relatively large shrub with numerous erect stems and is important in Minnesotan forest ecology because of its abundance. In fact, it is considered a close second to beaked hazel (C. cornuta) as the most abundant understory shrub in Minnesota. The shrub provides structure and function of the forest understory and influences succession of canopy trees.</p>
+                    
+                    <div id = "newHTML">
+                    <script>
+                        createSections();
+                        loadXMLDoc(1);
+                        
+                        //buildWordLists();
+                    </script>
+                    </div> 
+                </div>
+                
+            </section>        
+
+            <!-- <div id="navbar">
+                <a href="https://admissions.winona.edu/discover/winona/">Winona Campus</a>
+                <ul id="menuul">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Search</a></li>
+                    <li><a href="">Support</a></li>
+                </ul>
+            </div> -->
+                  
+
+            <div id="wsu-footer-global">
+                
+                <div class="container wsu-container-footer-global">
+                    <div class="row">
+                        <div class="col-xs-4 col-sm-1">
+                            <a href="/">
+                                <img src="//www.winona.edu/assets/images/logo_graphic.png" alt="WSU Flaming W">
+                            </a>
+                        </div>
+                        <div class="col-sm-4 col-xs-8 pull-right">
+                            <div class="hidden-md hidden-sm hidden-xs">
+                                <a href="http://www.MinnState.edu/" target="_blank"><img src="//www.winona.edu/assets/images/MinnState_logo_WSU_footer.png" alt="Minnesota State Logo"></a>
+                                <p>The oldest member of the colleges and universities of <a href="http://www.MinnState.edu/" target="_blank">Minnesota State</a></p>
+                            </div>
+                        </div>
+                        <footer class="col-lg-8 col-xs-12" role="contentinfo">
+                            <address>   
+                                <p><a href="http://www.winona.edu">Winona State University</a> | P.O. Box 5838 | 175 West Mark Street | Winona, MN 55987 | <a href="tel:5074575000">507.457.5000</a> | <a href="tel:18003425978">1.800.342.5978</a></p>
+                                <p>Winona State University is an <a href="http://www.winona.edu/affirmativeaction/">equal opportunity</a> employer and educator | <a href="https://www.winona.edu/affirmativeaction/title-ix.asp">Title IX &amp; Sexual Violence Resources</a> | <a href="http://www.winona.edu/disclaimer.asp">Privacy</a> | <a href="//www.winona.edu/contactwsu.asp">Contact Us</a></p>
+                            </address>
+                        </footer>
+                        <div class="col-xs-12 hidden-lg">
+                            <a href="http://www.MinnState.edu/" target="_blank"><img src="//www.winona.edu/assets/images/MinnState_logo_WSU_footer.png" alt="Minnesota State Logo"></a>
+                            <p>The oldest member of the colleges and universities of <a href="http://www.MinnState.edu/" target="_blank">Minnesota State</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </body>
+    </html>
