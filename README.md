@@ -5,7 +5,7 @@ This is a **Tree Information Web Application** built using **HTML, CSS, JavaScri
 
 
 ## 🛠️ Tech Stack
-HTML, JavaScript, XML, CSS, PHP
+HTML, JavaScript, XML, CSS
 
 ## 📂 Project Structure
 
