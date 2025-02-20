@@ -3,10 +3,11 @@ A webpage about Winona's tree. It implements cross-region, zoom and other functi
 
 This is a **Tree Information Web Application** built using **HTML, CSS, JavaScript, and XML**. It dynamically loads tree data, displays images, and allows users to search for tree names.
 
-## 📂 Project Structure
 
 ## 🛠️ Tech Stack
-HTML, JavaScript, XML, CSS
+HTML, JavaScript, XML, CSS, PHP
+
+## 📂 Project Structure
 
 ### 🖥️ Frontend (Client-Side)
 | File | Description |
